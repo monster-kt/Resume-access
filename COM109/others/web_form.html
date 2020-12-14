@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>联系方式页面</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./dist/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="./css/backsky.css" />
+    <link rel="stylesheet" href="./css/web_form.css">
+</head>
+
+<body>
+    <ul id="bac">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <p><a href="../image_map.html">返回首页</a></p>
+    <div class="container">
+        <form action="" method="" class="form-horizontal" role="form">
+            <!-- 公司用户名 -->
+            <div class="form-group">
+                <label for="username" class="col-sm-3 control-label"> <span>*</span>公司用户名</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" id="username" placeholder="请输入公司用户名">
+                </div>
+                <div class=" col-sm-3">
+                    <span><p id="un"></p></span>
+                </div>
+            </div>
+            <!-- 电话号码 -->
+            <div class="form-group ">
+                <label for="phone1 " class="col-sm-3 control-label "> <span>*</span>手机号码（+86）</label>
+                <div class="col-sm-6 ">
+                    <input type="text" class="form-control " id="phone" placeholder="请输入您的手机号码 ">
+                </div>
+                <div class=" col-sm-3">
+                    <span><p id="ph"></p></span>
+                </div>
+            </div>
+            <!-- 邮箱 -->
+            <div class="form-group ">
+                <label for="email " class="col-sm-3 control-label "> <span>*</span>邮箱</label>
+                <div class="col-sm-6 ">
+                    <input type="text" class="form-control " id="mail" placeholder="请填写邮箱地址 ">
+                </div>
+                <div class=" col-sm-3">
+                    <span><p id="ma"> </p></span>
+                </div>
+            </div>
+            <!-- 验证码 -->
+            <div class="form-group ">
+                <label for="validate" class="col-sm-3 control-label "> <span>*</span>验证码</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control " id="validate" placeholder="请填写验证码 ">
+                </div>
+                <label id="valimg" class="col-sm-2"> </label>
+                <div class="col-sm-3">
+                    <span><p id="vd"> </p></span>
+                </div>
+            </div>
+            <!-- 简历类型 -->
+            <div class="form-group ">
+                <label for="trander" class="col-sm-3 control-label"><span>*</span>查看简历类型</label>
+                <div class="col-sm-6">
+                    <select class="form-control" id="resume">
+                <option >短格式</option>
+                <option >长格式</option>
+              </select>
+                </div>
+                <div class=" col-sm-3">
+
+                </div>
+            </div>
+            <div class='login_fields__submit'>
+                <input id="submit" type='button' value='查看简历'>
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript" src="./js/web_form.js"></script>
+</body>
+
+</html>
